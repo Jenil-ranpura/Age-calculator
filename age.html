@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Age-Calculator</title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+			box-sizing: border-box;
+			font-family: 'poppons',sans-serif;
+		}
+		body{
+			background: linear-gradient(to bottom right, #333399, #ff00cc);
+			background-repeat: no-repeat;
+			height: 100vh;
+			width: 100%;
+			padding: 12%;
+		}
+		body main h1{
+			margin-bottom: 10px;
+		}
+		body main h1 span{
+			color: yellow;
+		}
+		body main .flex{
+			background-color: rgba(0,0,0,0.2);
+			width: 300px;
+			height: 60px;
+			border-radius: 5px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-bottom: 20px;
+		}
+		body main .flex input{
+			height: 25px;
+			border-radius: 3px;
+			padding: 0px 5px;	
+			border: 1px solid transparent;
+			font-size: 14px;
+			cursor: pointer;
+			margin-right: 10px;
+			width: 150px;
+		}
+		body main .flex button{
+			height: 22px;
+			width: 70px;
+			border-radius: 3px;
+			background-color: orange;
+			color: black;
+			border: 1px solid transparent;
+			outline: none;
+			cursor: pointer;
+		}
+		body main p{
+			color: white;
+			font-weight: 600;
+			font-family: 'poppins',sans-serif   ;
+			font-size: 20px;
+		}
+	</style>
+</head>
+<body>
+	<main>
+		<h1>Age <br><span>Calculator</span></h1>
+		<div class="flex">
+			<input type="date">
+			<button>Calculate</button>
+		</div>
+		<p></p>
+	</main>
+</body>
+<script type="text/javascript" src="age.js"></script>
+</html>
